@@ -64,14 +64,14 @@ nav a {
 }
 
 nav h1.active {
-  color: white;
-  background-color: #281e36;
+  color: rgb(249, 247, 240);
+  background-color: #969f78;
   font-weight: bold;
 }
 
 nav a.active {
-  color: white;
-  background-color: #281e36;
+  color: rgb(249, 247, 240);
+  background-color: #969f78;
   font-weight: bold;
 }
 
