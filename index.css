@@ -5,27 +5,27 @@
 
 body {
   margin: 0;
-  background: white;
+  background: rgb(253, 255, 244);
   font-family: "JMH Typewriter", monospace;
-  color: #111;
+  color: #2a2234;
 }
 
 a:link {
-  color: black;
+  color: #2a2234;
 }
 
 a:visited {
-  color: black;
+  color: #2a2234;
   text-decoration: none;
 }
 
 a:hover {
-  color: gray; /* opcional al pasar el mouse */
+  color: #514361; /* opcional al pasar el mouse */
   text-decoration: none;
 }
 
 a:active {
-  color: black;
+  color: #2a2234;
   text-decoration: none;
 }
 
@@ -58,20 +58,20 @@ nav {
 
 nav a {
   text-decoration: none;
-  color: black;
+  color: #2a2234;
   font-size: 14px;
   margin: 3px 0;
 }
 
 nav h1.active {
   color: white;
-  background-color: #111;
+  background-color: #2a2234;
   font-weight: bold;
 }
 
 nav a.active {
   color: white;
-  background-color: #111;
+  background-color: #2a2234;
   font-weight: bold;
 }
 
