@@ -5,27 +5,27 @@
 
 body {
   margin: 0;
-  background: rgb(254, 255, 248);
+  background: rgb(249, 247, 240);
   font-family: "JMH Typewriter", monospace;
-  color: #2a2234;
+  color: #281e36;
 }
 
 a:link {
-  color: #2a2234;
+  color: #281e36;
 }
 
 a:visited {
-  color: #2a2234;
+  color: #281e36;
   text-decoration: none;
 }
 
 a:hover {
-  color: #514361; /* opcional al pasar el mouse */
+  color: #969f78; /* opcional al pasar el mouse */
   text-decoration: none;
 }
 
 a:active {
-  color: #2a2234;
+  color: #281e36;
   text-decoration: none;
 }
 
@@ -58,20 +58,20 @@ nav {
 
 nav a {
   text-decoration: none;
-  color: #2a2234;
+  color: #281e36;
   font-size: 14px;
   margin: 3px 0;
 }
 
 nav h1.active {
   color: white;
-  background-color: #2a2234;
+  background-color: #281e36;
   font-weight: bold;
 }
 
 nav a.active {
   color: white;
-  background-color: #2a2234;
+  background-color: #281e36;
   font-weight: bold;
 }
 
