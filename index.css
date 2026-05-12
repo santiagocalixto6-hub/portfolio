@@ -1,0 +1,282 @@
+@font-face {
+  font-family: "JMH Typewriter";
+  src: url("JMH_Typewriter.ttf") format("truetype");
+}
+
+body {
+  margin: 0;
+  background: white;
+  font-family: "JMH Typewriter", monospace;
+  color: #111;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: gray; /* opcional al pasar el mouse */
+  text-decoration: none;
+}
+
+a:active {
+  color: black;
+  text-decoration: none;
+}
+
+/* CABECERA */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 40px;
+}
+
+
+.header h1 {
+  font-size: 18px;
+  font-weight: normal;
+  letter-spacing: 2px;
+}
+
+.header h1 a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+nav {
+  margin-top: 620px;
+  display: flex;
+  flex-direction: column;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  margin: 3px 0;
+}
+
+nav h1.active {
+  color: white;
+  background-color: #111;
+  font-weight: bold;
+}
+
+nav a.active {
+  color: white;
+  background-color: #111;
+  font-weight: bold;
+}
+
+/* CATALOGO */
+.catalogo {
+  padding: 120px 80px 80px 250px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 80px 60px;
+  align-items: start;
+}
+
+.catalogo a {
+  text-decoration: none;
+}
+
+.item img {
+  display: block;
+  width: 100%;
+  filter: contrast(95%) brightness(98%);
+  transition: filter 0.3s ease;
+}
+
+.item img:hover {
+  filter: contrast(95%) brightness(70%);
+}
+
+.caption {
+  margin-top: 8px;
+  font-size: 18px;
+}
+
+/* BIO/CV */
+.bio-cv {
+  padding: 120px 80px 80px 250px;
+  max-width: 800px;
+}
+
+.bio-cv h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.bio-cv h3 {
+  font-size: 18px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.bio-cv ul {
+  margin-bottom: 20px;
+}
+
+.bio-cv li {
+  margin-bottom: 5px;
+}
+
+/* CONTACTO */
+.contacto {
+  padding: 120px 80px 80px 250px;
+  max-width: 600px;
+}
+
+.contacto h2 {
+  font-size: 27px;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+
+.contacto h3 {
+  font-size: 18px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.contact-info {
+  margin-bottom: 20px;
+}
+
+.contact-info p {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.contacto p {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.contacto ul {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.contacto li {
+  margin-bottom: 5px;
+}
+
+/* DETALLE OBRA */
+.obra-detalle {
+  padding: 120px 80px 80px 250px;
+  display: flex;
+  gap: 60px;
+}
+
+.imagenes {
+  flex: 1;
+}
+
+.imagenes a {
+  display: block;
+}
+
+.imagenes img {
+  width: 100%;
+  margin-bottom: 20px;
+  filter: contrast(95%) brightness(98%);
+  cursor: zoom-in;
+}
+
+.texto {
+  flex: 1;
+  max-width: 400px;
+}
+
+.texto h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.ficha {
+  font-size: 14px;
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+
+.texto p {
+  font-size: 12px;
+    line-height: 1.6;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .header {
+    padding: 20px;
+    position: static;
+  }
+
+  .header-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  nav {
+    margin-top: 0;
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .catalogo {
+    padding: 20px;
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .bio-cv {
+    padding: 20px;
+  }
+
+  .contacto {
+    padding: 20px;
+  }
+
+  .obra-detalle {
+    padding: 20px;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .texto {
+    max-width: none;
+  }
+
+  .header h1 {
+    font-size: 16px;
+  }
+
+  nav a {
+    font-size: 12px;
+  }
+
+  .caption {
+    font-size: 16px;
+  }
+
+  .bio-cv h2 {
+    font-size: 20px;
+  }
+
+  .contacto h2 {
+    font-size: 22px;
+  }
+
+  .texto h2 {
+    font-size: 24px;
+  }
+}
