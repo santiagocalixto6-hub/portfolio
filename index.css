@@ -5,17 +5,17 @@
 
 body {
   margin: 0;
-  background: rgb(249, 247, 240);
+  background: rgb(249, 243, 226);
   font-family: "JMH Typewriter", monospace;
-  color: #3e2b4f;
+  color: #5f4378;
 }
 
 a:link {
-  color: #3e2b4f;
+  color: #5f4378;
 }
 
 a:visited {
-  color: #3e2b4f;
+  color: #5f4378;
   text-decoration: none;
 }
 
@@ -25,7 +25,7 @@ a:hover {
 }
 
 a:active {
-  color: #3e2b4f;
+  color: #5f4378;
   text-decoration: none;
 }
 
@@ -58,7 +58,7 @@ nav {
 
 nav a {
   text-decoration: none;
-  color: #3e2b4f;
+  color: #5f4378;
   font-size: 14px;
   margin: 3px 0;
 }
